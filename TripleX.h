@@ -21,11 +21,11 @@ namespace OutbackGames{
                     int levelDifficulty = 1;
                     void ProductCalc(){
                         codeProduct = codeA * codeB * codeC;
-                        std::cout << "+ The digits multiply to get: " << codeProduct << "\n";
+                        std::cout << "+ The numbers multiply to get: " << codeProduct << "\n";
                     }
                     void SumCalc(){
                         codeSum = codeA + codeB + codeC;
-                        std::cout << "+ The digits add up to: " << codeSum << "\n";
+                        std::cout << "+ The numbers add up to: " << codeSum << "\n";
                     }
                     void GuessProduct(){
                         guessProduct = guessA * guessB * guessC;
@@ -37,7 +37,7 @@ namespace OutbackGames{
                 public:
                     void PrintIntro(){
                         std::cout << "Morior Invictus: Veni, the Level " << levelDifficulty << " KGB server room console is now available to you.\n";
-                        std::cout << "Morior Invictus: There seems to be a 3 digit code required...\n";
+                        std::cout << "Morior Invictus: There seems to be a 3 number code required...\n";
                         if(levelDifficulty == 1){
                             std::cout << "Morior Invictus: The control of the console is now yours, I can only guide you from here on out.\n";
                         }
